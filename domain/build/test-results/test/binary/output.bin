@@ -1,0 +1,2 @@
+2java.lang.RuntimeException: Sudoku is unsolvable
+	/java.lang.RuntimeException: Sudoku is solved!

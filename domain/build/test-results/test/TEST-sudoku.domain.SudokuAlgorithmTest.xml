@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sudoku.domain.SudokuAlgorithmTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-08-23T08:22:55" hostname="HP400PD" time="0.081">
+  <properties/>
+  <testcase name="CheckIfElementIsDeleted()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.022"/>
+  <testcase name="CheckIfAlgorithmStopsIfUnsolvable()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.013"/>
+  <testcase name="CheckIfElementIsInitial()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfFocusGoesBack()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfFocusGoesBackSkippingInitialValues()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfFocusGoesForward()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.002"/>
+  <testcase name="CheckIfFocusGoesBackRow()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfAlgorithmStopsIfSolved()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.008"/>
+  <testcase name="CheckIfFocusCannotGoAboveRow8()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.003"/>
+  <testcase name="CheckIfAlgorithmSkipsPreviousTriedValue()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfElementIsAdded()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.002"/>
+  <testcase name="CheckIfElementIsValid()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfFocusGoesForwardSkippingInitialValues()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <testcase name="CheckIfFocusCannotGoBelowRow0()" classname="sudoku.domain.SudokuAlgorithmTest" time="0.001"/>
+  <system-out><![CDATA[java.lang.RuntimeException: Sudoku is unsolvable
+java.lang.RuntimeException: Sudoku is solved!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
